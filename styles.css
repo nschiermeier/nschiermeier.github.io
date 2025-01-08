@@ -1,0 +1,36 @@
+head {
+   title: "World of Nicholas";
+}
+
+body {
+  background-color: #ffffcd;
+}
+
+h1 {
+  color: #6a1213;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.drink_img {
+  float:  right;
+  width:  256px;
+  height: 256px;
+  border: 5px solid black;
+}
+
+.drink_recipe {
+  float:left;
+}
+
+.drink_date {
+  text-align: center;
+  font-size: 0.95em;
+  color: darkred;
+  margin-top: 5px;
+}
