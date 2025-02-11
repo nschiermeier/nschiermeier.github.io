@@ -1,5 +1,6 @@
 head {
    title: "World of Nicholas";
+   link rel="icon" type="image/x-icon" href="/Images/icon.png"
 }
 
 body {
@@ -25,7 +26,7 @@ h1 {
 }
 
 .drink_recipe {
-  float:left;
+  float: left;
 }
 
 .drink_date {
@@ -39,4 +40,23 @@ h1 {
   float: left;
   font-size: 1.3em;
   color: blue;
+}
+
+/* Styling for the about page */
+.about_imgs {
+  display: flex;
+  float: right;
+}
+
+.resume h3 {
+  color: #747880;
+  margin-bottom: 4px;
+  font-size: 1.25em;
+  
+}
+
+.resume hr {
+  display: flex;
+  float: left;
+  margin-top: 6px;
 }
