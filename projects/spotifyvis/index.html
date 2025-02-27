@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>World of Nicholas</title>
+    <meta name="description" content="Personal Website">
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="icon" type="image/x-icon" href="../../Images/icon.png">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="../../">Home</a></li>
+          <li><a href="../../about">About</a></li>
+          <li><a href="../../contact">Contact</a></li>
+          <li><a href="../../projects">Projects</a></li>
+          <!-- Might remove this and make it a "secret" page... -->
+          <li><a href="../../drinks">My Mixology Journey</a></li>
+        </ul>
+      </nav>
+      <hr>
+    </header>
+    <div class="proj_container">
+      <div class="project">
+        <h2>Spotify and You</h2>
+      </div>
+    </div>
+    <div class="project_container">
+      This project is all about different ways to visualize a user's Spotify listening history, as well as other statistics on songs streamed through spotify. There are 4 different components (tabs) to this project:
+        <ul>
+          <li> A barchart that shows the cumulative number of streams for all songs in a given year
+          <li> A scatterplot that allows users to change attributes to see how songs relate to certain categories
+          <li> Barcharts for a user's own spotify data, allowing them to see their most popular tracks and artists
+          <li> A linechart that again allows users to visualize different attributes to see how they relate
+        </ul>
+    </div>
+    <div class="project_container">
+      <div class="project"> <h3> Yearly Barchart </h3> </div>
+      <img src="../../Images/streams_per_year.png" style="width:45%"> <br>
+      For this tab, the min and max years are adjustable, which allows you to key in on a specific group of time. Hovering your mouse over one of the bars will allow you to see which specific year it is, the number of streams all songs on Spotify had in that year, and the most popular artist (by number of streams) for that year. From this, there is a large growth in streams after 2010, which is likely due to that being when Spotify started to become popular.
+      <br>
+      <div class="project"> <h3> Scatterplot </h3> </div>
+      <img src="../../Images/scatterplot.png" style="width:45%"> <img src="../../Images/spotify_vs_apple_scatterplot.png" style="width:45%"> <br>
+      This tab allows a user to pick different attributes defined by Spotify and visualize them in a scatterplot. The songs are color-coded by key. The user can also adjust the number of songs presented to isolate the most popular songs.
+      <br>
+      The user can also visualize the difference in streams on Spotify vs Apple Music, and see which songs have more streams or are in more playlists on the two music streaming services.
+      <br>
+      <div class="project"> <h3> User Data </h3> </div>
+      <img src="../../Images/artist_days_of_week.png" style="width:45%"> <img src="../../Images/artist_months_of_year.png" style="width:44%"> <br>
+      This is the most exciting tab, where the user is able to look at their own Spotify data. The user can see which artists they listened to most by days of the week or months of the year, color-coded by artist.
+      <br>
+      <img src="../../Images/top_artists.png" style="width:45%">  <img src="../../Images/top_tracks.png" style="width:45%"> <br>
+      Users can also look at their most-streamed artists, which is density color-coded by minutes listened. If a user hovers over an artist, they can see their most streamed song by that artist, or if they hover over a song, they can see who that song is performed by.
+      <br>
+      <img src="../../Images/user_data_options.png" style="width:45%"> <br>
+      These are all the options a user can visualize. Note for the first 4, a user can also choose whether or not to include skipped tracks in the calculations (A skipped song is a song played for less than 30 seconds)
+      <br>
+      <div class="project"> <h3> Linechart </h3> </div>
+      <img src="../../Images/linechart.png" style="width:45%"> <br>
+      This allows a user to see how closely related the different attributes created by Spotify are. They are able to change the order of the attributes to see different interactions. This is again color-coded by song key.
+    </div>
+  </body>
+
+</html>
