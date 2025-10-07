@@ -43,10 +43,17 @@ h1 {
   color: blue;
 }
 
+/* styling for welcome page */
+.welcome_page {
+  display: flex;
+}
+
 /* Styling for the about page */
 .about_imgs {
   display: flex;
   float: right;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 .resume h3 {
@@ -95,4 +102,28 @@ h1 {
   margin: 15px;
   display: flex;
   min-width: 150px;
+}
+
+/* responsive layout for mobile */
+@media (max-width: 768px) {
+  .about_imgs {
+    float: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    order: 2;
+  }
+
+  .about_imgs img {
+    width: 45vw;
+    margin: 8px 0;
+  }
+
+  .resume {
+    clear: both;
+  }
+  
 }
