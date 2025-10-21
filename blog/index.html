@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../styles.css">
     <link rel="icon" type="image/x-icon" href="../Images/icon.png">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   </head>
   <body>
     <header>
@@ -18,16 +19,12 @@
         </ul>
       </nav>
       <hr>
-     <h2>Blog</h2>
     </header>
 
-    <div>
-      I think I may start posting little updates here about my schoolwork. There may also be occasional updates about my personal life. I think that this might be a way that will help me study, and will also be a way I can just post about myself.
-    </div>
     <div class="blog-container">
       <h1> The log(N) </h1>
 
-      <p>Updates on my life! Mostly class re-caps as a way to help me study, but could include other stories as well. Think like a Blog, but more Nick!</p>
+      <p>Updates on my life! Mostly class re-caps as a way to help me study, but could include other stories as well. This is the log of N -- think like a Blog, but more Nick!</p>
       <p style="color:#ffffcd; font-size:0.5em">Courtesy to Daniel for coming up with the title of the blog!</p>
 
       <div id="posts"></div>
@@ -49,7 +46,7 @@
             <h2>${post.title}</h2>
             <p class="snippet">${post.snippet}</p>
             <div class="full-post">
-              <p>${post.content}</p>
+              ${marked.parse(post.content)}
             </div>
             <span class="read-more">Read more ↓</span>
           `;
