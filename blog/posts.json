@@ -3,12 +3,12 @@
     "title":"The First Four Weeks",
     "date":"October 20, 2025",
     "snippet":"My first four weeks of Graduate School at University of California, Irvine!",
-    "content":"### Testing markdown real quick"
+    "file":"first-four-weeks.md"
   },
   {
     "title":"Exploring Blogs",
     "date":"October 15, 2025",
     "snippet":"Trying out creating a blog post and messing with formatting and such. Think of this one as the \"Meta Blog\".",
-    "content":"This is where the text of a full post would go! This would be a more detailed explanation than the quick snippet seen before. I would add details here about whatever the post is."
+    "file":"first-post.md"
   }
 ]
