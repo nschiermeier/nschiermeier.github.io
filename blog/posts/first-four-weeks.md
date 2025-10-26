@@ -19,5 +19,10 @@ This is just a stream of conscious, but I'm not entirely sure how I want to stru
 
 Because of this, this post might also take a while to write. I have to remember everything and go bakc through my notes, so it mightt take a bit to fully finish. Luckily my midterms are right around now, so maybe while reviewing I will type up what I learned. Also, probably no pictures for this one, just due to the nature of it being so long and different already. I hope to incorporate pictures into the future entries, however. 
 
+In STATS 210, we went over basic statistical concepts, such as assumptions of a linear model and what it means to be an unbiased estimator. We also went over some of the most important parts of linear regression, those being Sums of Squares, which appear a lot in this class. In specific, there are two types: Sum of Squares Regression, (**SSR**) and Sum of Squares Error (**SSR**). \
+SSR is variation explained by predictors, and SSE is error that cannot be explained by your model. The sums of these two yield Sum of Squares Total (**SST**). We also went over inference, some distributions, and hypothesis testing.
+
+
 ### Week 2
+
 
