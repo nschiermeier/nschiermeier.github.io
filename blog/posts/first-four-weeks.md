@@ -26,7 +26,7 @@ We also learned about the mean response and prediction of a new value. The diffe
 In STATS 200A, We learned basic set theory during the first week. This includes the basics such as union, intersection, complimentation, and difference. Unioning two sets means an element is in set A _or_ in set B. Intersection means an element is in **both** set A and set B. The compliment of a set means that the element is **not** in the set, and the difference of a set means an element is in A but not in B. \
 Following this, two sets are disjoint if their union contains the empty set. If there are multiple sets in the universe, then any two are mutually disjoint if their union is the empty set. A partition of the universe is when there are multiple pairwise disjoint sets, and the union of all of them is the universe. \
 There are other basic properties of sets, such as the communicative, associative, and distributive property. \
-We also went over the rules of what it means to be a probability measure. These are: \
+We also went over the rules of what it means to be a probability measure. These are:
 1. P(A) > 0,
 2. P(Universe) = 1,
 3. If A<sub>1</sub>, A<sub>2</sub>, ..., A<sub>n</sub> are pairwise disjoint, then the probability of the untion of all A<sub>i</sub> = the sum of all P(A<sub>i</sub>)
@@ -39,10 +39,10 @@ The Central Limit Theorem states that if x<sub>1</sub>, x<sub>2</sub>,... are ii
 We also started learning about stochastic processes, as the name of the course would suggest. A stochastic process is a collection of random variables {x(t) : t in T}, where T is an index set, and t is often referred to as time. The sample space of x(t) is called the state space, and is denoted by S.\
 There are discrete state processes, real-valued stochastic processes, d-vector processes, discrete-time stochastic processes, and continuous-time stochastic processes. 
 
-We then moved on to Poisson Processes, which are counting processes. This means we have a stochastic process {N(t): t > 0} where N(t) represents the total number of events that have occurred by time t. Also, Poisson Processes must follow the following properties:\
+We then moved on to Poisson Processes, which are counting processes. This means we have a stochastic process {N(t): t > 0} where N(t) represents the total number of events that have occurred by time t. Also, Poisson Processes must follow the following properties:
 1. N(0) = 0
 2. The process has stationary and incrementing processes
-3. P(N(h) = 1) = \(\lambda \) (h) + o(h) for a constant \(\lambda \)
+3. P(N(h) = 1) = λ(h) + o(h) for a constant λ
 4. P(N(h) = 2) = o(h)
 
 ### Week 2
