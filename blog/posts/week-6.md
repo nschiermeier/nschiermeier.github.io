@@ -6,7 +6,7 @@ This class has my second midterm of the quarter this week! So there is only one 
 
 We started to go over something new, which are Multivariate Random Variables. These are multiple r.v.s that have a joint cdf or a joint pdf, which is a combined cdf or pdf for all the r.v.s present. There are a few propositions from this, those being the Law of Total PRobability, which allows you to find a specific probability by marginalizing (that is, either summing if discrete or integrating if continuous) over all the other variables. The other proposition is conditional probabilities, which hold similarly to how they do in the single random variable case. 
 
-We ended by going over Independence of Multivariate r.v.s, which is similar to the univariate case, but now it would be: f<sub>X,Y</sub>(x,y) = f<sub>X</sub>(x)\*f<sub>Y</sub>(y). You have to be careful here, because two r.v.s are not independent if the bounds of one of them rely on the other. This would make them dependent.
+We ended by going over Independence of Multivariate r.v.s, which is similar to the univariate case, but now it would be: f<sub>X,Y</sub>(x,y) = f<sub>X</sub>(x)*f<sub>Y</sub>(y). You have to be careful here, because two r.v.s are not independent if the bounds of one of them rely on the other. This would make them dependent.
 
 ### STATS 210
 
@@ -27,15 +27,15 @@ Alternatives to the reference category are removing the intercepts completely. H
 
 ### STATS 270
 
-This class also had a midterm this week. However, since I am just auditing it, I didn't have to take the midterm (woo!). So, just one lecture for this class, which was on Periods and simple random walks. A Period is the largest integer *d* of state *i* such that all p<sup>n</sup><sub>ij</sub> = 0 whenever n is not a positive integer multiple of d (i.e., n±d, 2d, 3d, ...). A state with period d=1 is called <u>aperiodic</u>.
-It can also be shown that if state i has period d, and i ↔ j, then state j also has period d.
+This class also had a midterm this week. However, since I am just auditing it, I didn't have to take the midterm (woo!). So, just one lecture for this class, which was a continuation of Markov Chains, specifically renewal processes. A renewal process is represented by N(t), and is the number of times the process is in state *j* by time *t*, if j is recurrent and X<sub>0</sub> = j. We can define μ<sub>jj</sub> as the expected number of steps needed to return to state j from state j, which is equal to Σ<sup>∞</sup><sub>n=1</sub> n*f* <sup>n</sup><sub>ij</sub>.  <br>
+If μ<sub>jj</sub> < ∞ and j is recurrent, then this is **positive recurrent** <br>
+If μ<sub>jj</sub> = ∞ and j is recurrent, then this is **null recurrent** <br>
+If state i is either positive or null recurrent, and i ↔ j, then j is respectively positive or null recurrent.
 
-We also learned about **recurrent** and **transient** states. For these, we define *f* <sup>n</sup><sub>ij</sub> to be the probability of the first transition into j at time n, given that the process starts in i, (so this is P(X<sub>n</sub> = j, X<sub>k</sub> ≠ j, k = 1, ..., n-1 | X<sub>0</sub> = i)). <br>
-State j is recurrent if *f* <sup>n</sup><sub>ij</sub> = 1, <br>
-State j is transient if *f* <sup>n</sup><sub>ij</sub> < 1 <br>
-It then follows that state j is recurrent if Σ<sup>∞</sup><sub>n=1</sub> p<sup>n</sup><sub>ij</sub> = ∞, and it is transient if Σ<sup>∞</sup><sub>n=1</sub> p<sup>n</sup><sub>ij</sub> < ∞. <br> 
-A wordy proof for this is that recurrence means that a process starting in j will eventually return to j. However, by the MArkovian property, it follows that the process restarts itself upon returning to j. Hence, with probability 1, it will return again to j, thus it returns to j infinitely often which leads to the expectation being infinity. If j is transient, the process never returns to j with probability 1- *f* <sup>n</sup><sub>ij</sub> > 0. Hence, the number of visits to j follows a Geometric distribution with mean < ∞,s ot he sum will also be less than infinity.
+The next topic we covered is what it means for a process to be stationary, which is if the probability distribution {P<sub>j</sub>, j >= 0} for a Markov Chain if P<sub>j</sub> = Σ<sup>∞</sup><sub>i=0</sub> P<sub>i</sub>P<sub>ij</sub>, j >= 0.
 
-Moving on to the Simple Random Walk, this is p<sub>i, i+1</sub> = p = 1 - p<sub>i, i+1</sub>. 
+We ended the class with going over a lengthy example showing how the Hardy-Weinberg Law is a Markov Chain. This problem considers a large population of individuals, where each individual has a particular pair of alleles, which is either class A or class a. We want to see how previous generations will affect the next generation. Without getting too math-y for the proof, randomly choosing a parent and then randomly choosing one of its alleles is equivalent to just randomly choosing an allele from the total allele population. Essentially, grand parents, great grand parents, etc. don't matter, and the only one that matters is the direct parent, which makes this a Markov Chain, as nothing over than the direct previous event affect the alleles. This can be shown with the transition matrix.
 
 ### Personal
+
+Not too much personal stuff happeend this week. I got to see a frined from high school who's attended UCI for a few years now, but I haven't had the chance to hang out with him much. He and some other friends and I went to the Irvine Spectrum, which is a really large outdoor mall, and walked around for a little bit. I don't really think too much else happened personally. Maybe if I remember more later, I will update this section.
