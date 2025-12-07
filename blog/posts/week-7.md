@@ -2,14 +2,14 @@ Well, I did not do a great job of keeping up with these throughout the quarter, 
 
 Due to the time constraint (finals start in just 4 days...) I won't be typing out personal things or STATS 270 notes, since I'm just auditing 270 and want to get through everything for 200A and 210 before the finals actually start.
 
-I think my goal is to do 2 weeks per day (it is currently Saturday) so I can be done before the weekend. We'll see how this works out!
+I think my goal is to do 2 weeks per day (it is currently Saturday) so I can be done before the weekend ends. We'll see how this works out!
 
 ### STATS 200A
 
 The first theorem that we learned in class this week was one of the most important: **Linearity**. This theorem states that if we have two Random Variables, X and Y, as well as constants a, b, and c, then the expected value E[aX + bY + c] = aE[X] + bE[Y] + c. The proof for this comes from linearity of integrals, in which we can move constants out of integrals that don't rely on them. (Note to self, I said I would put pictures in these blogs but never did, but this would be a great opportunity to do so, should I want to come back and do that...)
 This theorem is very useful in many other ways that will appear very soon.
 
-The next important concept we went over was Mutual Independence. Mutual Independence is when we have a function of many rvs: f(x<sub>1</sub>, x<sub>2</sub>,...,x<sub>n</sub>, and this function equals the pi-sum of them individually, i.e. Π<sub>i=1</sub> <sup>n</sup> f(x<sub>i</sub>) = f(x<sub>1</sub>) \* f(x<sub>2</sub>) \* ... \* f(x<sub>n</sub>).
+The next important concept we went over was Mutual Independence. Mutual Independence is when we have a function of many rvs: f(x<sub>1</sub>, x<sub>2</sub>,...,x<sub>n</sub>), and this function equals the pi-sum of them individually, i.e. Π<sup>n</sup><sub>i=1</sub> f(x<sub>i</sub>) = f(x<sub>1</sub>) \* f(x<sub>2</sub>) \* ... \* f(x<sub>n</sub>).
 From this, we also get that the expected sum of values is equal to the sum of expected values of mutually indep. r.v.s (this stems from linearity!), as well as the MGF of a sum of r.v.s being equal to the sum of MGFs.
 The proofs for these again come from linearity, as well as definitions of expectations and pi-sums.
 
