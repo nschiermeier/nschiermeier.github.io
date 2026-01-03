@@ -164,6 +164,12 @@ h1 {
   opacity: 1;
 }
 
+.full-archive-post.open {
+  max-height: 500px;
+  overflow-y: auto;
+  opacity: 1;
+}
+
 /* responsive layout for mobile */
 @media (max-width: 768px) {
   .about_imgs {
