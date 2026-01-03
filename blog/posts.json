@@ -1,5 +1,12 @@
 [
   {
+    "title":"New Year, Better Me?",
+    "date":"January 3rd, 2025",
+    "snippet":"First post of the year, testing LaTeX, and winter break highlights.",
+    "file":"posts/first-2026-post.md",
+    "status":"active"
+  },
+  {
     "title":"Week 9",
     "date":"December 8th, 2025",
     "snippet":"Possibly the most important concepts of STATS 200A were taught this week! Also, Happy Thanksgiving!",
