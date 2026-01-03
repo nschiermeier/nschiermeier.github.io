@@ -33,7 +33,7 @@
 			const archived = posts.filter(p => p.status === "archived");
 
 			for (const post of archived) {
-			  post.file = '/blog/${file}';
+			  post.file = '/blog/${post.file}';
 			  const mdResponse = await fetch(post.file);
 			  const mdText = await mdResponse.text();
 			  const html = marked.parse(mdText);
