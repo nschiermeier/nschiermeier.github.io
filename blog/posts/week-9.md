@@ -35,7 +35,7 @@ This class only met once this week, due to the Thanksgiving Holiday. We went ove
 
 **Leverage** is how far away a predictor is from its mean. It is how we detect outliers in the predictor variable X. This value is h<sub>ii</sub>, or the diagonal value of the hat matrix for predictor *i*. In words, the *i*<sup>th</sup> leverage measures influence of the *i*<sup>th</sup> observation on its own fitted value y<sup>^</sup><sub>i</sub>. Larger leverage means that observation has more influence.
 
-The sum of all leverage points is ∑<sup>n</sup><sub>i=1</sub>*p*<sup>~</sup>, which is the number of regression coefficients (yes, this would include β<sub>0</sub>. Then, a common rule of thumb to detect how outliers would be any points that are two or three times the average of *p*<sup>~</sup>.
+The sum of all leverage points is ∑<sup>n</sup><sub>i=1</sub>h<sub>ii</sub>=*p*<sup>\~</sup>, which is the number of regression coefficients (yes, this would include β<sub>0</sub>. Then, a common rule of thumb to detect how outliers would be any points that are two or three times the average of *p*<sup>\~</sup>.
 
 To detect Y outliers, the standardized residuals can be used. This is *r<sub>i</sub>* = (e<sub>i</sub>/σ√(1-h<sub>ii</sub>)), where *e* is the residual value. We use this because it has a standardized variance, which is helpful because it allows them to be comparable across observations.
 

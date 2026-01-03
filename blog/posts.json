@@ -2,43 +2,50 @@
   {
     "title":"Week 9",
     "date":"December 8th, 2025",
-    "snippet":"Possibly the most important concepts of STATS 200A were taught this week! Still incomplete, as I need to also type out STATS 210 notes. Also, Happy Thanksgiving!",
-    "file":"posts/week-9.md"
+    "snippet":"Possibly the most important concepts of STATS 200A were taught this week! Also, Happy Thanksgiving!",
+    "file":"posts/week-9.md",
+    "status":"active"
   },
   {
     "title":"Week 8",
     "date":"December 6th, 2025",
     "snippet":"More information / finals studying",
-    "file":"posts/week-8.md"
+    "file":"posts/week-8.md",
+    "status":"archived"
   },
   {
     "title":"Week 7",
     "date":"December 6th, 2025",
     "snippet":"As it is getting close to finals, I'm trying to power through these as a way of trying to study, by reexplaining all the concepts I learned in my own words, and typing them out. This was week 7 of my first quarter.",
-    "file":"posts/week-7.md"
+    "file":"posts/week-7.md",
+    "status":"archived"
   },
   {
     "title":"Week 6",
     "date":"November 12, 2025",
     "snippet":"Week 6 of my fall quarter, filled with two midterms (though I only took one... and yes, this post is coming before the week 5 one, but I'll get to that later!)",
-    "file":"posts/week-6.md"
+    "file":"posts/week-6.md",
+    "status":"archived"
   },
   {
     "title":"Week 4",
     "date":"November 06, 2025",
     "snippet":"Week 4 of my first fall quarter",
-    "file":"posts/week-4.md"
+    "file":"posts/week-4.md",
+    "status":"archived"
   },
   {
     "title":"The First Four Weeks",
     "date":"October 20, 2025",
     "snippet":"My first four weeks of Graduate School at University of California, Irvine!",
-    "file":"posts/first-four-weeks.md"
+    "file":"posts/first-four-weeks.md",
+    "status":"archived"
   },
   {
     "title":"Exploring Blogs",
     "date":"October 15, 2025",
     "snippet":"Trying out creating a blog post and messing with formatting and such. Think of this one as the \"Meta Blog\".",
-    "file":"posts/first-post.md"
+    "file":"posts/first-post.md",
+    "status":"archived"
   }
 ]
