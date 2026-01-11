@@ -27,3 +27,26 @@ b. If $X_n \rightarrow_{\text{p}} X, \text{ then } X_n\rightarrow_{\text{D}}X$
 c. If $X_n \rightarrow_{\text{r}} X, \text{ then } X_n\rightarrow_{\text{p}}X$
 
 That was a lot from this class, but after this was just a proof for those three implications, so now we can move on to the next class.
+
+### STATS 205
+
+The first lecture of this class was about what Bayesian statistics is. In short, this subject is about taking a prior distribution, applying it to a likelihood, and then using the resulting posterior distribution. The first step of this is to determine which distribution you would like to use as the prior. There is some belief before observing your data, such as an expert's opinion, historical evidence, etc.  By doing this, it turns the parameter $\theta$ into a random variable.
+
+As a basic example, suppose there's a dataset that records 9 Heads in 12 Flips on a coin. The goal is to test whether the coin is fair or not (That is, the parameter $\theta=\frac{1}{2}$.) There are two ways this experiment could have been conducted: the first would be a Binomial distribution with 12 flips, and we recorded the number of heads from those 12 flips. The other way is to use a Negative Binomial distribution, where we were flipping the coin until we got 3 fails (tails). 
+
+Interestingly, conducting a hypothesis test with these two leads to two different results! One of them leads to a rejection of the null, why the other does not reject it (though I did not write down which was which, oops...)
+
+In the second lecture of this class, we discussed Joint Density Priors. 
+
+Some very important terminology for this class are the following:
+- $p(\theta)$ is the **prior probability**, which expresses the beliefs regarding $\theta$ before observing the data
+- $p(y|\theta)$ is the **sampling model** for the data, and what yields the likelihood
+- $p(y)$ is the **marginal density** of the data
+
+To get the joint density, we can apply Bayes' Theorem from STATS 200A, and do marginal distribution $\times$ conditional distribution to get the joint. Using the definitions from above, this leads to: \[ p(\theta|y) = \frac{p(y|\theta) * p(\theta)}{p(y)}\]
+
+which is what we learned in 200A.
+
+One important question that follows is how do we choose a prior distribution and what does it represent? There are two types of priors: a **non-informative prior**, which is a dispersed distribution and doesn't hold a lot of weight, and a **improper prior**, which is where the integral of the prior is $\infty$.
+
+Finally, we discussed prior sensitivity, which checks to see if the results change when using different priors (like in that coin flip example above).
