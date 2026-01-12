@@ -1,5 +1,12 @@
 [
   {
+    "title":"Winter Quarter Week 1",
+    "date":"January 12th, 2025. Class dates: Jan. 5th - Jan. 9th",
+    "snippet":"Another first week, now brought to you in LaTeX!",
+    "file":"posts/w26-week-1.md",
+    "status":"active"
+  },
+  {
     "title":"New Year, Better Me?",
     "date":"January 3rd, 2025",
     "snippet":"First post of the year, testing LaTeX, and winter break highlights.",
