@@ -50,3 +50,15 @@ which is what we learned in 200A.
 One important question that follows is how do we choose a prior distribution and what does it represent? There are two types of priors: a **non-informative prior**, which is a dispersed distribution and doesn't hold a lot of weight, and a **improper prior**, which is where the integral of the prior is $\infty$.
 
 Finally, we discussed prior sensitivity, which checks to see if the results change when using different priors (like in that coin flip example above).
+
+### STATS 211
+
+This class is an extension of STATS 210 (Linear Models) and goes over Generalized Linear Models. The first classes went over very broad concepts about being a statistician as a whole. We started by talking about two different types of analyses: **cluster analysis** is when there is no well-defined response, but you look for clusters of individuals that are similar. The other is **factor analysis**, which relates to high vs low dimensionality.
+
+We also discussed hypothesis generation, which uses data-driven modeling, and hypothesis testing, which doesn't use data-driven modeling, as that would turn it into a conditional estimation question (such as looking at diabetes vs blood pressure, then testing diabetes vs blood pressure at a similar weight, which is *conditioning on weight*). 
+
+In hypothesis generation, we need to know what defines the sample, as well as what we are generalizing to. We can't generalize to the entire world, just the population of our sample (i.e., all patients in hospital A when we took a sample of 30 random patients from hospital A).
+
+Finally, we went over the required steps for a data analysis. These are understanding the aims of data analysis, establishing the context of the analysis, developing a statistical model, evaluating the properties of the design, computation, then interpreting the results. This was a big part of STATS 210, so we just did a brief recap of it. One important note is that if you transform your response to help with issues such as nonconstant variance in the model, this changes the question you are answering. Many times, the scientific question to be addressed can be viewed as *comparing the distribution across subpopulations*.
+
+We ended the class by talking about a few different models, and discussing how everything talked about in STATS 210 (Like $\chi^2$, t-test, ANOVA, etc.) all build up from a Linear Model. There are three different types of parameters for a model, too. If all parameters of interest are in $\vec{\beta}$, the model can be *parametric* if there are finite dimensions and *semiparametric* if there are infinite dimensions. If $\vec{\beta}$ does not contain all parameters of interest and there are infinite dimensions, the model is called *nonparametric*.
