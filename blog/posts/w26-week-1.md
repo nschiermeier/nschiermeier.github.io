@@ -4,7 +4,8 @@ Welcome to the first week of Winter Quarter 2026! From what I've heard from olde
 We started this class by going over a few inequalities, including Markov's Inequality and Chebyshev's Inequality that were covered in 200A. The two new inequalities we went over were the **Cauchy-Scwartz Inequality** and **Hölder's Inequality**. The Cauchy-Scwartz inequality is that $(E[XY])^2 \leq E[X^2]E[Y^2]$. Hölder's inequality states that for any $p, q > 0$, satisfying $\frac{1}{p} + \frac{1}{q}=1$, we have: $|E[XY]| \leq E[|XY|] \leq (E[|X|^p])^{1/p}(E[|Y|^q])^{1/q}$. 
 
 We also went over Jenson's Inequality, which was talked about in 200A, but not explained too well. This inequality states that if $g$ is a convex function, then $E[g(x)] \geq g(E[X])$, provided that the expectation exists. I think this diagram helps show it: 
-![Jenson's Inequality Graph] (Images/jenson.png)
+
+![Jenson's Inequality Graph](./Images/jenson.png)
 
 Essentially, if $l$ is a tangent line to $g$ at $E[x]$, then $E[g(x)] \geq E[l(x)] = l(E[x]) = g(E[x])$ (this holds by properties of convexity).
 

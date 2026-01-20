@@ -1,5 +1,12 @@
 [
   {
+    "title":"Winter Quarter Week 2",
+    "date":"January 19th, 2025. Class dates: Jan. 12th - Jan 16th",
+    "snippet":"Cool stuff learned this week, such as what to do when data isn't normal, and conjugate Bayes Priors",
+    "file":"posts/w26-week-2.md",
+    "status":"active"
+  },
+  {
     "title":"Winter Quarter Week 1",
     "date":"January 12th, 2025. Class dates: Jan. 5th - Jan. 9th",
     "snippet":"Another first week, now brought to you in LaTeX!",
