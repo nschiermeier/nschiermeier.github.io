@@ -5,7 +5,7 @@ We started this class by going over a few inequalities, including Markov's Inequ
 
 We also went over Jenson's Inequality, which was talked about in 200A, but not explained too well. This inequality states that if $g$ is a convex function, then $E[g(x)] \geq g(E[X])$, provided that the expectation exists. I think this diagram helps show it: 
 
-![Jenson's Inequality Graph](./Images/jenson.png)
+![Jenson's Inequality Graph](Images/jenson.png)
 
 Essentially, if $l$ is a tangent line to $g$ at $E[x]$, then $E[g(x)] \geq E[l(x)] = l(E[x]) = g(E[x])$ (this holds by properties of convexity).
 
