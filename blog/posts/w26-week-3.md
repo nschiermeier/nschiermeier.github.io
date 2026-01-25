@@ -29,3 +29,37 @@ To find the MLE, the standard approach is:
 3. Check the concavity of the likelihood function (sign of the second derivative)
   - If the sign is negative definite for all $\theta$, then the original derivative found in step 2 is the unique global maximizer.
   - If it is negative but not for all $\theta$, then $\hat{\theta}$ is a local max, and you need to compare all local maxes across all boundary points.
+  
+  
+### STATS 211
+
+The main topic covered this week was associations among covariates, and the role of adjustment variables. This happens by effect modifiers, which are another way of saying "interaction terms", which were covered last quarter. We can call this effect modifier $W$, and it is the association between the predictor of interest $X$ and the outcome of interest $Y$ which differs with each level of $W$. Essentially, adding more $W$s adds more tests, because you then test association between $X$ and $Y$ at each $W$.
+
+A lot of these names / terms for these adjustment variables specific to my professor, but I will describe them in a way that is hopefully pretty general.
+
+The first variable is a **confounding variable**. This variable is both causally related with $X$ and $Y$. 
+
+![Confounding Variable](posts/Images/confounder.png)
+
+The next type of adjusting variable is a **mediator**. This type of variable lies in the causal pathway between $X$ and $Y$. If you remove the pathway from $X\rightarrow W$, you can no longer relate $X$ to $Y$.
+
+![Mediator](posts/Images/mediator.png)
+
+The third type is a **precision variable**. This covariate is related to the $Y$ but not to $X$.
+
+![Precision Variable](posts/precision.png)
+
+The final type is a **nuisance variable**. This is the opposite of a precision variable, because it _may or may not_ be related to $X$ only, and not $Y$.
+
+![Nuisance Variable](posts/nuisance.png)
+
+For these variables, we have two models: 
+
+- $E[Y_i] \beta_0 + \beta_1X_i$, which is unadjusted, where $\beta_1$ is the difference in the mean of $Y$ for groups differing by 1-unit in $X$, and 
+- $E[Y_i]=\gamma_0+\gamma_1X_i+\gamma_2W_i$, which is the adjusted model, where $\gamma_1$ is the difference in the mean of Y for groups differing by 1-unit in $X$, but having the same $W$ value.
+
+There are two important things to consider for these models, those being the bias and the variance. To check these, we consider $r_{XW}$, the correlation of $X$ and $W$, and $\gamma_2$, the relation between $W$ and $Y$. The following chart shows how these considerations hold for different values of $r_{XW}$ and $\gamma_2$:
+
+![Decision Matrix for two Models](posts/Images/rho_gamma_matrix.png)
+
+That was the big topic for this week.
