@@ -1,8 +1,15 @@
 [
   {
+    "title":"Winter Quarter Week 3",
+    "date":"January 25th, 2026. Class dates: Jan. 20th - Jan. 22nd",
+    "snippet":"I learn that they named a statistic concept after a Young Thug album.",
+    "file":"posts/w26-week-3.md",
+    "status":"active"
+  },
+  {
     "title":"Winter Quarter Week 2",
     "date":"January 19th, 2025. Class dates: Jan. 12th - Jan. 16th",
-    "snippet":"Cool stuff learned this week, such as what to do when data isn't normal, and conjugate Bayes Priors",
+    "snippet":"Cool stuff learned this week, such as what to do when data isn't normal, and conjugate Bayes Priors.",
     "file":"posts/w26-week-2.md",
     "status":"active"
   },

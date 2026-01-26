@@ -30,7 +30,17 @@ To find the MLE, the standard approach is:
   - If the sign is negative definite for all $\theta$, then the original derivative found in step 2 is the unique global maximizer.
   - If it is negative but not for all $\theta$, then $\hat{\theta}$ is a local max, and you need to compare all local maxes across all boundary points.
   
-  
+### STATS 205
+
+There was only one lecture for this class this week, due to MLK day on Monday. The two big topics covered in this lecture were Posterior predictive checking, as well as Jeffrey's Prior.
+
+To check the posterior prediction, **composition sampling** is used. To do this, first $\theta^{(1)}$ is sampled from the posterior distribution $p(\theta|y_1,...,y_n)$ already calculated. Then, $y_{n+1}^{(1)}$ is sampled from the new distribution created, $p(y|\theta^{(1)})$. This is repeated $B$ times, and then plotted to see if it has a similar shape to the actual data. If it does, the model is appropriate for the data.
+
+The next concept is **Jeffrey's prior**, which has local uniformity (meaning it does not change much over the region that the likelihood is also in, and it does not have large values outside this range) making it a non-informative prior. Jeffrey's prior is calculated by first finding Fisher's Information, which is the expected value of the second derivative of the log likelihood, or 
+\[I(\theta)=-E_{y|\theta}\left[\frac{\delta^2\log p(y|\theta)}{\delta\theta^2}\right] \]
+
+for all you more math-y people. Then, Jeffrey's prior is $p(\theta)\propto|I(\theta)|^{1/2}$.  An interesting fact about this prior is that it is *invariant*, so it yields the same result result if applied to a transformed parameter.
+
 ### STATS 211
 
 The main topic covered this week was associations among covariates, and the role of adjustment variables. This happens by effect modifiers, which are another way of saying "interaction terms", which were covered last quarter. We can call this effect modifier $W$, and it is the association between the predictor of interest $X$ and the outcome of interest $Y$ which differs with each level of $W$. Essentially, adding more $W$s adds more tests, because you then test association between $X$ and $Y$ at each $W$.
@@ -62,4 +72,16 @@ There are two important things to consider for these models, those being the bia
 
 ![Decision Matrix for two Models](posts/Images/rho_gamma_matrix.png)
 
-That was the big topic for this week.
+That was the big topic for this week. Other than that, we went over remedies for nonconstant variance in linear regression. There are three ways to address this problem:
+1. Transform the outcome variable
+2. Robust variance estimators
+3. Weighted Least Squares (discussed briefly last quarter)
+
+The first and third methods have been discussed last quarter, so I will just focus on the second one, which is new (at least to me). This one this involves using a matrix $\Sigma$ which has all its diagonal elements as $\sigma^2_i$. Now, the true variance of $\hat{\vec{\beta}} = (X^TX)^{-1}X^T\Sigma X(X^TX)^{-1}$. 
+
+A common estimator of $\sigma^2_i$ the squared residual, $e_i^2=(Y_i-\hat{Y_i})^2$, which results in $\hat{\Sigma}$. This is called the _robust_ variance estimator, and requires a large sample for reliable estimates. Another funny name for this estimator is the *sandwich* estimator, because it is sandwiched in between the two $(X^TX)^{-1}$ terms. 
+
+### Personal
+
+For the thought-tank, I will recount a personal experience I had this week.
+I met with a Professor here at UCI to try and begin working on a project with him. This professor's interests are in using statistical modeling implemented into the flexibility of AI. That sounded like something right up my alley, so I emailed him and askled to meet with him. I may have talked about this last quarter, but there was a lab-fair that was held in the department, and this professor had some research using satellite imagery, which is what I did a lot of at JPL, so it seemed like a good entry point. His other research seemed really interesting to me too. The project I asked him about is essentially trying to predict wildfires based on spatiotemporal data. I thought that this was really neat, especially given the fires that swept across California last year and impacted some people I know. Though I haven't had any formal education for spatial data (UCI is offering a class on it this quarter, but the three classes I'm in are core classes and cannot be skipped...) but I did take a Time Series course at Purdue in my last semester, so I still remember a decent amount from it. I'm really looking forward to this project, it seems interesting, and I think I clicked well with the professor, so here's hoping all goes well!
