@@ -53,7 +53,7 @@ Another topic when normality is not satisfied is to use the Lindeberg-Feller CLT
 1. $\frac{S_n}{\sigma_{(n)}}\xrightarrow{d} N(0,1)$
 2. $\lim_{n\rightarrow\infty} \text{max}\{\frac{\sigma^2_i}{\sigma^2_{(n)}}, 1\leq i\leq n\} = 0$.
 
-These hold iff: \[\forall \epsilon > 0, \lim_{n\rightarrow\infty} \frac{1}{\sigma^2_{(n)}}\sum_{i=1}^nE[|Y_i|^21_{[|Y_i|\geq \epsilon\sigma_{(n)}]}=0\]
+These hold iff: \\[\forall \epsilon > 0, \lim_{n\rightarrow\infty} \frac{1}{\sigma^2_{(n)}}\sum_{i=1}^nE[|Y_i|^21_{[|Y_i|\geq \epsilon\sigma_{(n)}]}=0\\]
 
 The final way to help with normality is to center covariates. Doing this is only possible with independence, and it only holds if the max of the center is 0 as n goes to infinity.
 

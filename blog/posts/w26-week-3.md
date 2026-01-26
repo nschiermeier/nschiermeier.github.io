@@ -38,7 +38,7 @@ To check the posterior prediction, **composition sampling** is used. To do this,
 
 The next concept is **Jeffrey's prior**, which has local uniformity (meaning it does not change much over the region that the likelihood is also in, and it does not have large values outside this range) making it a non-informative prior. Jeffrey's prior is calculated by first finding Fisher's Information, which is the expected value of the second derivative of the log likelihood, or 
 
-\[I(\theta)=-E_{y|\theta}\left[\frac{\delta^2\log p(y|\theta)}{\delta\theta^2}\right] \]
+\\[I(\theta)=-E_{y|\theta}\left[\frac{\delta^2\log p(y|\theta)}{\delta\theta^2}\right] \\]
 
 for all you more math-y people. Then, Jeffrey's prior is $p(\theta)\propto|I(\theta)|^{1/2}$.  An interesting fact about this prior is that it is *invariant*, so it yields the same result result if applied to a transformed parameter.
 
