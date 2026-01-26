@@ -15,7 +15,7 @@ Next, we went over a very fundamental process in statistics, which is the **expo
 
 Some notable distributions that belong to exponential families include Normal, Poisson, and Binomial! I remember learning about exponential families in STATS 526 at Purdue, and remember them being somewhat tricky to deal with... They were defined a little differently than here, so maybe this way of seeing it as well as it being the second time dealing with them will make it easier to understand.
 
-The next thing we went over was the **Method of Moments**. These are estimators obtained by replacing population moments by sample moments: $\mu'_k = E[x^k]\rightarrow k^{th}$ population moment, $m_k = \frac{1}{n}\sum_{i=1}^nx_i^k \rightarrow k^{th}$ sample mean. Our goal is to estimate $\mu'_k$ by $m_k$, and to estimate $\tau(\theta)$, by first expressing it as a function of population moments ($\tau(\theta) = h(\mu'_1,...,\mu'_k$)), then estimate $\tau(\theta)$ by $\hat{\tau}(\theta) = h(m_1,...,m_k)$ (I don't know why this is broken)
+The next thing we went over was the **Method of Moments**. These are estimators obtained by replacing population moments by sample moments: $\mu\'_k = E[x^k]\rightarrow k^{th}$ population moment, $m_k = \frac{1}{n}\sum_{i=1}^nx_i^k \rightarrow k^{th}$ sample mean. Our goal is to estimate $\mu\'_k$ by $m_k$, and to estimate $\tau(\theta)$, by first expressing it as a function of population moments ($\tau(\theta) = h(\mu\'_1,...,\mu\'_k$)), then estimate $\tau(\theta)$ by $\hat{\tau}(\theta) = h(m_1,...,m_k)$
 
 These methods are useful because they are consistent. They are often used when other methods fail or are extremely complicated (or to achieve robustness), or sometimes as preliminary estimators.
 
@@ -50,7 +50,7 @@ A lot of these names / terms for these adjustment variables specific to my profe
 
 The first variable is a **confounding variable**. This variable is both causally related with $X$ and $Y$. 
 
-![Confounding Variable](posts/Images/confounder.png){width=30%}
+<img src="posts/Images/confounder.png" alt="Confounding Variable" width="50%"
 
 The next type of adjusting variable is a **mediator**. This type of variable lies in the causal pathway between $X$ and $Y$. If you remove the pathway from $X\rightarrow W$, you can no longer relate $X$ to $Y$.
 
