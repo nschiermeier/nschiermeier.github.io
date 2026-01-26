@@ -15,7 +15,7 @@ Next, we went over a very fundamental process in statistics, which is the **expo
 
 Some notable distributions that belong to exponential families include Normal, Poisson, and Binomial! I remember learning about exponential families in STATS 526 at Purdue, and remember them being somewhat tricky to deal with... They were defined a little differently than here, so maybe this way of seeing it as well as it being the second time dealing with them will make it easier to understand.
 
-The next thing we went over was the **Method of Moments**. These are estimators obtained by replacing population moments by sample moments: $\mu^{'}_k = E[x^k]\rightarrow k^{th}$ population moment, $m_k = \frac{1}{n}\sum_{i=1}^nx_i^k \rightarrow k^{th}$ sample mean. Our goal is to estimate $\mu^'_k$ by $m_k$, and to estimate $\tau(\theta)$, by first expressing it as a function of population moments ($\tau(\theta) = h(\mu^'_1,...,\mu^'_k$)), then estimate $\tau(\theta)$ by $\hat{\tau}(\theta) = h(m_1,...,m_k)$
+The next thing we went over was the **Method of Moments**. These are estimators obtained by replacing population moments by sample moments: $\mu^p_k = E[x^k] \rightarrow k^{th}$ population moment, $m_k = \frac{1}{n}\sum_{i=1}^nx_i^k \rightarrow k^{th}$ sample mean. Our goal is to estimate $\mu^p_k$ by $m_k$, and to estimate $\tau(\theta)$, by first expressing it as a function of population moments ($\tau(\theta) = h(\mu^p_1,...,\mu^p_k$)), then estimate $\tau(\theta)$ by $\hat{\tau}(\theta) = h(m_1,...,m_k)$
 
 These methods are useful because they are consistent. They are often used when other methods fail or are extremely complicated (or to achieve robustness), or sometimes as preliminary estimators.
 
@@ -50,19 +50,19 @@ A lot of these names / terms for these adjustment variables specific to my profe
 
 The first variable is a **confounding variable**. This variable is both causally related with $X$ and $Y$. 
 
-<img src="posts/Images/confounder.png" alt="Confounding Variable" width="50%">
+<img src="posts/Images/confounder.png" alt="Confounding Variable" width="100%">
 
 The next type of adjusting variable is a **mediator**. This type of variable lies in the causal pathway between $X$ and $Y$. If you remove the pathway from $X\rightarrow W$, you can no longer relate $X$ to $Y$.
 
-![Mediator](posts/Images/mediator.png){width=30%}
+<img src="posts/Images/mediator.png" alt="Mediator" width="100%">
 
 The third type is a **precision variable**. This covariate is related to the $Y$ but not to $X$.
 
-![Precision Variable](posts/Images/precision.png){width=30%}
+<img src="posts/Images/precision.png" alt="Precision Variable" width="100%">
 
 The final type is a **nuisance variable**. This is the opposite of a precision variable, because it _may or may not_ be related to $X$ only, and not $Y$.
 
-![Nuisance Variable](posts/Images/nuisance.png){width=30%}
+<img src="posts/Images/nuisance.png" alt="Nuisance Variable" width="100%">
 
 For these variables, we have two models: 
 
@@ -71,7 +71,7 @@ For these variables, we have two models:
 
 There are two important things to consider for these models, those being the bias and the variance. To check these, we consider $r_{XW}$, the correlation of $X$ and $W$, and $\gamma_2$, the relation between $W$ and $Y$. The following chart shows how these considerations hold for different values of $r_{XW}$ and $\gamma_2$:
 
-![Decision Matrix for two Models](posts/Images/rho_gamma_matrix.png){width=30%}
+<img src="posts/Images/rho_gamma_matrix.png" alt="Decision Matrix for two Models" width="100%">
 
 That was the big topic for this week. Other than that, we went over remedies for nonconstant variance in linear regression. There are three ways to address this problem:
 1. Transform the outcome variable
