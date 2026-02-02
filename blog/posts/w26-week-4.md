@@ -23,7 +23,7 @@ Another very important concept talked about this week was the **Cramer-Rao Lower
 - $\frac{\delta}{\delta\theta}\int f_{\vec{X}}(\vec{x}|\theta) d\vec{x} = \int \frac{\delta}{\delta\theta} f_{\vec{X}}(\vec{x}|\theta) d\vec{x}, \frac{\delta}{\delta\theta}\int W(\vec{X})f_{\vec{X}}(\vec{x}|\theta) d\vec{x} = \int W(\vec{X}) \frac{\delta}{\delta\theta} f_{\vec{X}}(\vec{x}|\theta) d\vec{x}$
 - $I(\theta) = E_\theta[\frac{\delta}{\delta\theta}\{logf_{\vec{X}}(\vec{x}|\theta)\}^2] > 0$ (This is the Cramer-Rao Lower bound)
 
-\[[Var_\theta(W(\vec{X})) \geq \frac{\frac{\delta}{\delta\theta}E_\theta[W(\theta)]^2}{E_\theta[\frac{\delta}{\delta\theta}\{logf_{\vec{X}}(\vec{x}|\theta)\}^2]}\]]
+\\[Var_\theta(W(\vec{X})) \geq \frac{\frac{\delta}{\delta\theta}E_\theta[W(\theta)]^2}{E_\theta[\frac{\delta}{\delta\theta}\{logf_{\vec{X}}(\vec{x}|\theta)\}^2]}\\]
 
 Some final terminology before wrapping up this class, the function $S(X|\theta) = \frac{\delta}{\delta\theta}\log f_X(x|\theta)$ is called the **score function**. Then, the quantity $I(\theta) = E[\{\frac{\delta}{\delta\theta}\log f_X(x|\theta)\}^2] = E_\theta[S^2(X|\theta)]$ is called the **Fisher Information**. I believe both of these have kind of been covered last week in STATS 205, but here they are again.
 
