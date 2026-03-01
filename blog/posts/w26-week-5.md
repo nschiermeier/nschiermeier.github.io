@@ -38,7 +38,7 @@ Some common choices for link functions are the identity link (aka, no link), the
 
 The next topic covered was the **exponential family**. For this, we have $\theta$, which is out scientific parameter of interest, and $\phi$, which is a nuisance parameter. A distribution is a member of the exponential family if it's probability density function can be written in the following form:
 
-\[ f(y;, \theta, \phi) = \exp\left[\frac{y\theta-b(\theta)}{a(\phi)} + c(y, \phi)\right]\]
+\\[ f(y;, \theta, \phi) = \exp\left[\frac{y\theta-b(\theta)}{a(\phi)} + c(y, \phi)\right]\\]
 
 The mean of an exponential family is $E[Y_i] = b^p(\theta_i)$, and the Variance is $Var[Y_i] = a_i(\phi)b^{pp}(\theta_i)$, where the p denotes the derivative. 
 
