@@ -1,38 +1,44 @@
 [
   {
+	"title":"Where has Nick been?!",
+	"date":"September 22nd, 2026",
+	"snippet":"Explaining why I stopped the weekly lesson blogs, and what I want this to be moving forward.",
+	"file":"posts/year-2.md",
+	"status":"active"
+  {
     "title":"Winter Quarter Week 5",
     "date":"March 1st, 2026. Class dates: Feb. 2nd - Feb. 5th",
     "snippet":"Finally getting back into the swing of writing these...",
     "file":"posts/w26-week-5.md",
-    "status":"active"
+    "status":"archived"
   },
   {
     "title":"Winter Quarter Week 4",
     "date":"February 1st, 2026. Class dates: Jan. 26th - Jan. 29th",
     "snippet":"More statistics, and a short story on setbacks",
     "file":"posts/w26-week-4.md",
-    "status":"active"
+    "status":"archived"
   },
   {
     "title":"Winter Quarter Week 3",
     "date":"January 25th, 2026. Class dates: Jan. 20th - Jan. 22nd",
     "snippet":"I learn that they named a statistic concept after a Young Thug album.",
     "file":"posts/w26-week-3.md",
-    "status":"active"
+    "status":"archived"
   },
   {
     "title":"Winter Quarter Week 2",
     "date":"January 19th, 2025. Class dates: Jan. 12th - Jan. 16th",
     "snippet":"Cool stuff learned this week, such as what to do when data isn't normal, and conjugate Bayes Priors.",
     "file":"posts/w26-week-2.md",
-    "status":"active"
+    "status":"archived"
   },
   {
     "title":"Winter Quarter Week 1",
     "date":"January 12th, 2025. Class dates: Jan. 5th - Jan. 9th",
     "snippet":"Another first week, now brought to you in LaTeX!",
     "file":"posts/w26-week-1.md",
-    "status":"active"
+    "status":"archived"
   },
   {
     "title":"New Year, Better Me?",
