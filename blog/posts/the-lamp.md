@@ -1,0 +1,22 @@
+Recently, I saw [this video](https://youtu.be/HEMlIn6MDD8?si=g-lhUtnUXE8C07KM) that discussed ways to improve room decor (for boys only, I suppose). To be honest, I don't remember a lot of the video. According to YouTube I watched it on March 31st, six and a half months ago at the time of writing this. But one thing that stuck out to me was about the lighting of the room. 
+
+## Background
+For some history, when I moved into my current appartment, the ceiling light had one bulb that was half-burnt out; sometimes it would stay on, sometimes it was off, and sometimes it would flicker. I put in a maintanence request for it to be changed, as when only one bulb was lit, it was pretty dark in my room. On the day they changed the bulb, I came back to my room and turned my light on to find that _both_ bulbs had been replaced and were now brighter, cooler LEDs. These LEDs were very reminiscent of a corporate or office space, and were quite ugly in my opinion. It did however fix the original issue, and my room was brighter with these new white bulbs. Because of this, even though I wasn't a fan of the bulbs, I just dealt with them and would still use them.
+
+<img src="https://worldofnicholas.net/blog/posts/Images/bad_light.jpg" alt="My room being lit by ceiling lights" width="100%">
+
+## "Fairy" Lights
+One solution that I had for this problem was to use some "fairy" lights, as the kids call them. These are small, round LEDs that are placed along a string wire, and can light up in many different colors. I already had some fairy lights hung around my room that I originally got for my undergrad dorm, so I figured I could just use those rather than the overhead light. These were fine, they had a color that was a bit warmer, almost yellow or orange. However, they weren't bright enough to fully replace the ceiling lights, as they were too dim to do work in. When I wanted to relax they worked fine, but I ended up still using the overhead lights a majority of the time, despite disliking them.
+
+## The Lamp
+In the aforementioned video, they describe that different lighting can bring different moods to the room. They describe the overhead lights as "cleaning lights," and as something you should only have on when you are, well, cleaning. Ideally, you have multiple sources of light, and the ceiling light is not one of the primary ones. This can add to the overall ambiance of the room, which can improve the feel greatly. I relied too heavily on just this one light, which made my room feel more like a hospital than a bedroom. 
+
+I had tossed around the idea of getting a lamp for a little while, but the one issue I kept coming back to was the size of my room. My current living situation is ~~hell on earth~~ a four bed two bath, where they try to make the whole area as compact and cookie-cutter as possible. The floor layout for my room is estimated to be 9x10 feet, and that's not including the giant cement pillar right next to the door... The only pieces of furnature I have in here are my desk, a rolling chair that barely rolls, and a twin-sized bed. I bought a mirror as well that I placed next to the closet, but I really _don't_ have much other space. I didn't think that I would have room for a lamp, so I never pursued it.
+
+However, this quarter I had been thinking about it more and more. Eventually, I decided to just bite the bullet, and purchased a cheap lamp from [IKEA](https://www.ikea.com/us/en/p/tagarp-floor-uplighter-reading-lamp-black-white-70486395/) (*No, I am NOT going to try and spell that*). I got home and set it up, and instantly felt like my room had been transformed.
+
+<img src="https://worldofnicholas.net/blog/posts/Images/good_light.jpg" alt="My room being lit by the lamp" width="100%">
+
+The lamp was much warmer and less obnoxious than the ceiling light was. I placed it by the foot of my bed, and my room just felt _nicer_. It wasn't as harsh, and felt very relaxing while still providing enough light to be able to get work done if need be. This lamp also came with a smaller reading light attached, which is great because it allows me to angle the light differently if needed, letting it act as "functional lighting" described in the video. I can also use only this reading light if I want it a bit darker, or both if I want it a bit brighter (manual "dimmer" FTW).
+
+So what's the takeaway here? There is no takeaway. Takeaway whatever you want. I like my lamp, and just wanted to share that I think it improved my room. No deeper message than that.

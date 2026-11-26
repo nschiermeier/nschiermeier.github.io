@@ -1,5 +1,12 @@
 [
   {
+	"title":"Lamp",
+	"date":"November 25th, 2026",
+	"snippet":"A story about how I disliked the lighting of my bedroom and how I fixed it with a lamp.",
+	"file":"posts/the-lamp.md",
+	"status":"active"
+  },
+  {
 	"title":"Where has Nick been?!",
 	"date":"September 22nd, 2026",
 	"snippet":"Explaining why I stopped the weekly lesson blogs, and what I want this to be moving forward.",

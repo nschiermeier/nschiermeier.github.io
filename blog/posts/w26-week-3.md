@@ -50,19 +50,19 @@ A lot of these names / terms for these adjustment variables specific to my profe
 
 The first variable is a **confounding variable**. This variable is both causally related with $X$ and $Y$. 
 
-<img src="posts/Images/confounder.png" alt="Confounding Variable" width="100%">
+<img src="https://worldofnicholas.net/blog/posts/Images/confounder.png" alt="Confounding Variable" width="100%">
 
 The next type of adjusting variable is a **mediator**. This type of variable lies in the causal pathway between $X$ and $Y$. If you remove the pathway from $X\rightarrow W$, you can no longer relate $X$ to $Y$.
 
-<img src="posts/Images/mediator.png" alt="Mediator" width="100%">
+<img src="https://worldofnicholas.net/blog/posts/Images/mediator.png" alt="Mediator" width="100%">
 
 The third type is a **precision variable**. This covariate is related to the $Y$ but not to $X$.
 
-<img src="posts/Images/precision.png" alt="Precision Variable" width="100%">
+<img src="https://worldofnicholas.net/blog/posts/Images/precision.png" alt="Precision Variable" width="100%">
 
 The final type is a **nuisance variable**. This is the opposite of a precision variable, because it _may or may not_ be related to $X$ only, and not $Y$.
 
-<img src="posts/Images/nuisance.png" alt="Nuisance Variable" width="100%">
+<img src="https://worldofnicholas.net/blog/posts/Images/nuisance.png" alt="Nuisance Variable" width="100%">
 
 For these variables, we have two models: 
 
@@ -71,7 +71,7 @@ For these variables, we have two models:
 
 There are two important things to consider for these models, those being the bias and the variance. To check these, we consider $r_{XW}$, the correlation of $X$ and $W$, and $\gamma_2$, the relation between $W$ and $Y$. The following chart shows how these considerations hold for different values of $r_{XW}$ and $\gamma_2$:
 
-<img src="posts/Images/rho_gamma_matrix.png" alt="Decision Matrix for two Models" width="100%">
+<img src="https://worldofnicholas.net/blog/posts/Images/rho_gamma_matrix.png" alt="Decision Matrix for two Models" width="100%">
 
 That was the big topic for this week. Other than that, we went over remedies for nonconstant variance in linear regression. There are three ways to address this problem:
 1. Transform the outcome variable
